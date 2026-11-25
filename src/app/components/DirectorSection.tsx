@@ -32,26 +32,26 @@ const FACULTY_IMG = "https://images.unsplash.com/photo-1522202176988-66273c2fd55
 const pillars = [
   {
     icon: <GraduationCap className="w-7 h-7" />,
-    title: "IIT & AIIMS Trained Faculty",
-    desc: "Every senior faculty brings firsthand experience of cracking JEE Advanced & NEET with top ranks. Concepts are explained from first principles with real-world problem solving.",
+    title: "Expert Faculty Team",
+    desc: "Experienced teachers including popular mentors like Ankit Sir who focus on building strong concepts in Science and Mathematics for CBSE & ICSE curriculum.",
     tag: "Expert Teachers",
   },
   {
     icon: <Monitor className="w-7 h-7" />,
     title: "Smart Digital Classrooms",
-    desc: "Full HD interactive digital boards in every classroom for visual learning. 3D animations, recorded lectures backup, and annotated notes for crystal-clear concept retention.",
+    desc: "Modern air-conditioned classrooms equipped with smartboards for visual learning. Interactive digital boards for crystal-clear concept understanding.",
     tag: "Tech Enabled",
   },
   {
     icon: <HelpCircle className="w-7 h-7" />,
-    title: "Doubt Removal & Mentorship",
-    desc: "Dedicated doubt counters after every class + 24x7 doubt support on WhatsApp. Each student gets a personal mentor for study plan, performance tracking & motivation.",
+    title: "Dedicated Doubt Clearing",
+    desc: "Personalized attention with dedicated doubt-clearing sessions. Each student gets individual support for performance tracking & motivation.",
     tag: "1on1 Attention",
   },
   {
     icon: <IndianRupee className="w-7 h-7" />,
     title: "Affordable & Transparent Fees",
-    desc: "Mathura ki most reasonable fees structure. No hidden charges, no pressure tactics. Scholarships available for meritorious & financially weak students every month.",
+    desc: "Prayagraj ki most reasonable fees structure. No hidden charges, no pressure tactics. Quality education accessible to all families.",
     tag: "Value for Money",
   },
 ];
@@ -60,25 +60,25 @@ const pillars2 = [
   {
     icon: <Users2 className="w-7 h-7" />,
     title: "Small Batch Size",
-    desc: "Max 40-45 students per batch so every child gets personal attention. Faculty knows every student by name and tracks their weekly progress individually.",
+    desc: "Focused learning environment with limited students per batch. Faculty knows every student personally and tracks their progress individually.",
     tag: "Focused Learning",
   },
   {
     icon: <TrendingUp className="w-7 h-7" />,
-    title: "Weekly Tests & Analytics",
-    desc: "Chapter-wise test every Sunday + monthly full syllabus mock test as per JEE/NEET pattern. Detailed scorecard with weak-area analysis shared with parents via WhatsApp.",
+    title: "Regular Tests & Tracking",
+    desc: "Regular chapter-wise tests and assessments. Detailed performance analysis shared with parents for complete transparency.",
     tag: "Result Tracking",
   },
   {
     icon: <AwardIcon className="w-7 h-7" />,
-    title: "100% Syllabus on Time",
-    desc: "Time-bound academic calendar with guaranteed completion of full syllabus 2 months before exam. Ample revision time with 3 rounds of revision marathons.",
+    title: "Complete Syllabus Coverage",
+    desc: "Time-bound curriculum with guaranteed completion of full CBSE/ICSE syllabus well before exams. Multiple revision rounds included.",
     tag: "Time Bound",
   },
   {
     icon: <CheckCircle2 className="w-7 h-7" />,
-    title: "Weekly Parent Meeting",
-    desc: "Every Saturday parents meet faculty and discuss their child's progress — attendance, test performance, homework completion & behaviour. Complete transparency.",
+    title: "Parent Communication",
+    desc: "Regular parent meetings to discuss child's progress — attendance, test performance, homework completion & behaviour. Complete transparency.",
     tag: "Parent Connect",
   },
 ];
@@ -87,12 +87,12 @@ const vmv = [
   {
     icon: <Eye className="w-6 h-6" />,
     title: "Our Vision",
-    desc: "English Master Institute ka sapna hai ki Mathura ka har wo student jo English seekhna chahta hai, usko Delhi ya kisi bade shehar jaane ki zaroorat na pade. Hum yahi pe, Mathura mein, woh level ki coaching dena chahte hain jisse humaari nagri ke bacche confident English bol sakein.",
+    desc: "TSS Acharya ka sapna hai ki Prayagraj (Katra area) ka har wo student jo quality coaching chahta hai, usko woh level ki education mile jisse wo confidently apne school exams aur competitive tests excel kar sake.",
   },
   {
     icon: <Target className="w-6 h-6" />,
     title: "Our Mission",
-    desc: "Har student ke andar jo potential chhupa hai usko baahar nikaalna. Weakest student ko bhi itna strong banana ki wo confidently JEE Advanced aur NEET crack kar sake. Right guidance, honest teaching, aur affordable fees — yehi hamara mission hai.",
+    desc: "Har student ke andar jo potential chhupa hai usko baahar nikaalna. Class 6 se 12 tak ke students ko itna strong banana ki wo confidently apne academics mein excel kar sakein. Right guidance, honest teaching, aur affordable fees — yehi hamara mission hai.",
   },
   {
     icon: <Heart className="w-6 h-6" />,
@@ -104,8 +104,8 @@ const vmv = [
 const stats = [
   { value: "500+", label: "Students Taught", icon: <Users className="w-5 h-5" /> },
   { value: "4.8★", label: "Google Rating", icon: <Star className="w-5 h-5 fill-current" /> },
-  { value: "79+", label: "Parent Reviews", icon: <Award className="w-5 h-5" /> },
-  { value: "25+", label: "JEE / NEET Selections", icon: <TrendingUp className="w-5 h-5" /> },
+  { value: "100+", label: "Parent Reviews", icon: <Award className="w-5 h-5" /> },
+  { value: "50+", label: "Board Exam Toppers", icon: <TrendingUp className="w-5 h-5" /> },
 ];
 
 export default function DirectorSection() {
@@ -115,19 +115,19 @@ export default function DirectorSection() {
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 text-[12px] font-bold px-4 py-1.5 rounded-full mb-4 tracking-wider uppercase" style={{ backgroundColor: `${SECONDARY}14`, color: SECONDARY }}>
             <Medal className="w-3.5 h-3.5" />
-            About ENGLISH MASTER INSTITUTE
+            About TSS ACHARYA
           </div>
           <h2 className="font-heading text-[24px] sm:text-[30px] md:text-[40px] font-extrabold leading-tight mb-3" style={{ color: PRIMARY }}>
-            Mathura&apos;s Most Trusted{" "}
-            <span style={{ color: SECONDARY }}>English Coaching Institute</span>
+            Prayagraj&apos;s Most Trusted{" "}
+            <span style={{ color: SECONDARY }}>CBSE & ICSE Coaching Institute</span>
           </h2>
           <p className="text-[13px] sm:text-[15px] text-[#6B7280] max-w-2xl mx-auto leading-relaxed hidden sm:block">
-            ENGLISH MASTER INSTITUTE ki sthapna ek hi clear nishay ke saath hui hai —
-            quality English education Mathura ke har bacche tak, uski aam zindagi mein,
-            uski bhasha mein, aur uske budget mein.
+            TSS Acharya ki sthapna ek hi clear nishay ke saath hui hai —
+            quality CBSE & ICSE education Prayagraj ke har bacche tak, unke aam jeevan mein,
+            unki bhasha mein, aur unke budget mein.
           </p>
           <p className="text-[13px] text-[#6B7280] max-w-2xl mx-auto leading-relaxed sm:hidden">
-            Quality English education Mathura ke har bacche tak — uski bhasha mein, uske budget mein.
+            Quality CBSE & ICSE education Prayagraj ke har bacche tak — unki bhasha mein, unke budget mein.
           </p>
         </div>
 
@@ -145,7 +145,7 @@ export default function DirectorSection() {
                   hai.&rdquo;
                 </h3>
                 <p className="text-[13px] text-white/70 leading-relaxed mb-4 hidden sm:block">
-                  ENGLISH MASTER INSTITUTE mein hum kabhi bhi kisi student ko weak nahi kehte.
+                  TSS Acharya mein hum kabhi bhi kisi student ko weak nahi kehte.
                   Hum kehte hain — &ldquo;abhi weak hai, par kal top karega.&rdquo;
                   Aur yahi hamara confidence hamare students mein bhi jaata hai.
                   Ek sahi teacher sirf padhta nahi, bacha banata hai.
@@ -157,7 +157,7 @@ export default function DirectorSection() {
                     <div className="w-14 h-14 rounded-xl flex items-center justify-center overflow-hidden border-2 border-white/20 bg-white">
                     <Image
                       src="/logo.jpg"
-                      alt="ENGLISH MASTER INSTITUTE Founder Logo"
+                      alt="TSS Acharya Founder Logo"
                       width={56}
                       height={56}
                       className="w-full h-full object-contain p-0.5"
@@ -165,7 +165,7 @@ export default function DirectorSection() {
                   </div>
                   <div>
                     <div className="font-heading font-bold text-[16px] text-white leading-tight">
-                      ENGLISH MASTER INSTITUTE
+                      TSS ACHARYA
                     </div>
                     <div className="text-[12px] text-white/50 font-semibold mt-0.5">
                       Founder &amp; Director
@@ -183,24 +183,24 @@ export default function DirectorSection() {
                     <p className="text-[13px] sm:text-[15px] text-[#374151] leading-[1.8] italic hidden sm:block">
                       &ldquo;हमारा लक्ष्य केवल सिलेबस पढ़ना नहीं, बल्कि हर उस छात्र को
                       आत्मविश्वास देना है जो अभी तक किसी ने seriously नहीं लिया।
-                      ENGLISH MASTER INSTITUTE में सबसे पहले <strong>weakest student</strong> की फोकस करते हैं —
+                      TSS Acharya में सबसे पहले <strong>weakest student</strong> की फोकस करते हैं —
                       क्योंकि हमें पता है, एक सही मार्गदर्शन और सही environment से
                       हर बच्चा <strong style={{ color: SECONDARY }}>Top Rank</strong> ला सकता है।&rdquo;
                     </p>
                     <p className="text-[13px] text-[#374151] leading-[1.8] italic sm:hidden">
-                      &ldquo;ENGLISH MASTER INSTITUTE में सबसे पहले <strong>weakest student</strong> की फोकस करते हैं —
+                      &ldquo;TSS Acharya में सबसे पहले <strong>weakest student</strong> की फोकस करते हैं —
                       एक सही मार्गदर्शन से हर बच्चा <strong style={{ color: SECONDARY }}>Top Rank</strong> ला सकता है।&rdquo;
                     </p>
                   </div>
 
                   <div className="hidden sm:grid grid-cols-1 gap-2.5">
                     {[
-                "Small batch size — max 45 students",
-                       "Weekly PTM every Saturday 4 PM",
-                       "Complete syllabus 2 months before exam",
+                "Air-conditioned smart classrooms",
+                       "Experienced faculty team",
+                       "Complete syllabus coverage",
                        "Affordable fees — zero hidden charges",
-                       "24x7 doubt support on WhatsApp",
-                       "Scholarship test every Sunday",
+                       "Dedicated doubt-clearing sessions",
+                       "Regular parent-teacher meetings",
                     ].map((item) => (
                       <div key={item} className="flex items-start gap-2.5 text-[13px] font-semibold text-[#374151]">
                         <span className="w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5" style={{ backgroundColor: `${SECONDARY}18`, color: SECONDARY }}>
@@ -215,7 +215,7 @@ export default function DirectorSection() {
                   <div className="relative rounded-2xl overflow-hidden h-56 md:h-full card-shadow border border-[#EAE5DC] group">
                     <Image
                       src={DIRECTOR_IMG}
-                      alt="ENGLISH MASTER INSTITUTE Academic Director teaching students"
+                      alt="TSS Acharya Academic Director teaching students"
                       fill
                       className="object-cover w-full transition-transform duration-300 group-hover:scale-105"
                       sizes="(max-width: 768px) 100vw, 30vw"
@@ -243,7 +243,7 @@ export default function DirectorSection() {
             <div className="relative h-40 sm:h-52 md:h-60">
                 <Image
                 src={FACULTY_IMG}
-                alt="ENGLISH MASTER INSTITUTE Expert Faculty Team Mathura"
+                alt="TSS Acharya Expert Faculty Team Prayagraj"
                 fill
                 className="object-cover w-full"
                 sizes="100vw"
@@ -256,7 +256,7 @@ export default function DirectorSection() {
                     Our Expert Faculty Team
                   </div>
                   <h3 className="font-heading text-[22px] sm:text-[28px] md:text-[34px] font-extrabold text-white leading-tight max-w-xl">
-                    Certified English Teachers Who Care
+                    Certified Teachers Including Ankit Sir
                   </h3>
                 </div>
               </div>
@@ -265,9 +265,9 @@ export default function DirectorSection() {
 
           <div className="text-center mb-8">
               <h3 className="font-heading text-[24px] md:text-[30px] font-extrabold leading-tight mb-2" style={{ color: PRIMARY }}>
-              The <span style={{ color: SECONDARY }}>Eight Pillars</span> of ENGLISH MASTER INSTITUTE
+              The <span style={{ color: SECONDARY }}>Eight Pillars</span> of TSS ACHARYA
             </h3>
-            <p className="text-[14px] text-[#6B7280]">Ye 8 cheezein humein Mathura ke baaki coaching se alag banati hain.</p>
+            <p className="text-[14px] text-[#6B7280]">Ye 8 cheezein humein Prayagraj ke baaki coaching se alag banati hain.</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {[...pillars, ...pillars2].map((p, i) => (

@@ -15,15 +15,15 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "English Master Institute — Best English Coaching in Mathura",
+  title: "TSS Acharya — Best CBSE & ICSE Coaching in Prayagraj",
   description:
-    "Premier English coaching institute in Mathura, Uttar Pradesh. Expert faculty for Spoken English, Grammar, Competitive Exam English &amp; Personality Development. Admissions open for 2026–27.",
+    "Premier CBSE & ICSE coaching institute in Prayagraj (Katra area), Uttar Pradesh. Expert faculty including Ankit Sir for Science, Mathematics &amp; all school subjects. Air-conditioned smart classrooms. Admissions open for 2026–27.",
   keywords:
-    "english coaching mathura, spoken english classes mathura, english master institute, grammar classes mathura, competitive english mathura, personality development mathura",
+    "cbse coaching prayagraj, icse coaching prayagraj, tss acharya, science mathematics coaching prayagraj, katra prayagraj coaching, board exam preparation prayagraj",
   openGraph: {
-    title: "English Master Institute — Best English Coaching in Mathura",
+    title: "TSS Acharya — Best CBSE & ICSE Coaching in Prayagraj",
     description:
-      "Premier Spoken English, Grammar &amp; Competitive English coaching in Mathura. Expert faculty, smart classrooms, personal mentorship.",
+      "Premier CBSE & ICSE coaching in Prayagraj Katra area. Expert faculty, air-conditioned smart classrooms, personal mentorship for Class 6th to 12th.",
     type: "website",
   },
 };

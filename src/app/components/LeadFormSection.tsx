@@ -24,29 +24,29 @@ const SECONDARY_HOVER = "#1E40AF";
 const STUDY_IMG = "https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&w=1000&q=80";
 
 const classes = [
-  "Spoken English (Beginner)",
-  "Spoken English (Intermediate)",
-  "Spoken English (Advanced)",
-  "Grammar & Writing Skills",
-  "Competitive English (Bank/SSC)",
-  "Personality Development",
-  "Interview Preparation",
-  "IELTS / TOEFL Preparation",
-  "Business English",
+  "Class 6th CBSE/ICSE",
+  "Class 7th CBSE/ICSE",
+  "Class 8th CBSE/ICSE",
+  "Class 9th CBSE/ICSE",
+  "Class 10th CBSE/ICSE",
+  "Class 11th CBSE/ICSE",
+  "Class 12th CBSE/ICSE",
+  "Competitive Foundation (JEE/NEET)",
+  "Board Exam Preparation",
 ];
 
 const trustBadges = [
-  { icon: <Target className="w-3.5 h-3.5" />, label: "Expert English Faculty" },
-  { icon: <Building2 className="w-3.5 h-3.5" />, label: "Smart Digital Classrooms" },
-  { icon: <ClipboardList className="w-3.5 h-3.5" />, label: "Weekly Practice Tests" },
-  { icon: <HandshakeIcon className="w-3.5 h-3.5" />, label: "1-on-1 Speaking Practice" },
+  { icon: <Target className="w-3.5 h-3.5" />, label: "Expert Faculty Team" },
+  { icon: <Building2 className="w-3.5 h-3.5" />, label: "AC Smart Classrooms" },
+  { icon: <ClipboardList className="w-3.5 h-3.5" />, label: "Regular Practice Tests" },
+  { icon: <HandshakeIcon className="w-3.5 h-3.5" />, label: "Personal Mentorship" },
 ];
 
 const uspList = [
-  { icon: <GraduationCap className="w-4 h-4" />, text: "Expert English Faculty" },
-  { icon: <IndianRupee className="w-4 h-4" />, text: "Most Affordable Fees in Mathura" },
+  { icon: <GraduationCap className="w-4 h-4" />, text: "Expert Faculty incl. Ankit Sir" },
+  { icon: <IndianRupee className="w-4 h-4" />, text: "Most Affordable Fees in Prayagraj" },
   { icon: <Clock4Icon className="w-4 h-4" />, text: "Flexible Batch Timings" },
-  { icon: <ShieldCheck className="w-4 h-4" />, text: "100% Course Completion Guarantee" },
+  { icon: <ShieldCheck className="w-4 h-4" />, text: "100% Syllabus Completion" },
 ];
 
 export default function LeadFormSection() {
@@ -70,12 +70,12 @@ export default function LeadFormSection() {
           <div>
             <div className="inline-flex items-center gap-2 border border-[#0F2C59]/15 text-[#0F2C59] lg:text-[12px] text-[10px] font-bold px-4 py-1.5 rounded-full mb-4 tracking-wide" style={{ backgroundColor: "#0F2C5910" }}>
               <Trophy className="w-3.5 h-3.5" style={{ color: SECONDARY }} />
-              <span>#1 Ranked English Coaching — Mathura, Uttar Pradesh</span>
+              <span>#1 Ranked CBSE & ICSE Coaching — Prayagraj, Uttar Pradesh</span>
             </div>
 
             <h1 className="font-heading text-[22px] sm:text-[30px] lg:text-[42px] font-extrabold text-[#0F2C59] leading-[1.2] tracking-tight mb-3">
-              Master the Art of{" "}
-              <span style={{ color: SECONDARY }}>English Language</span>{" "}
+              Excel in{" "}
+              <span style={{ color: SECONDARY }}>CBSE & ICSE</span>{" "}
               with{" "}
               <span className="relative inline-block">
                 Expert Mentors
@@ -85,7 +85,7 @@ export default function LeadFormSection() {
             </h1>
 
             <p className="text-[13px] sm:text-[15px] text-[#4B5563] leading-relaxed mb-4 max-w-lg">
-              Mathura&apos;s most trusted English coaching — Spoken English, Grammar, Competitive Exam English &amp; Personality Development with expert faculty &amp; personal mentorship.
+              Prayagraj&apos;s most trusted CBSE & ICSE coaching — Science, Mathematics &amp; all school subjects with expert faculty, air-conditioned smart classrooms &amp; personal mentorship.
             </p>
 
             <div className="grid grid-cols-2 gap-2 mb-4 max-w-lg">
@@ -116,7 +116,7 @@ export default function LeadFormSection() {
             <div className="relative overflow-hidden rounded-2xl mb-5 h-48 sm:h-52 card-shadow border border-[#EAE5DC] group">
               <Image
                 src={STUDY_IMG}
-                alt="Students learning English at English Master Institute Mathura"
+                alt="Students learning at TSS Acharya Prayagraj"
                 fill
                 className="object-cover w-full transition-transform duration-300 group-hover:scale-105"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -127,10 +127,10 @@ export default function LeadFormSection() {
                   ⭐ 500+ Happy Students
                 </div>
                 <div className="font-heading font-extrabold text-[16px] sm:text-[20px] text-white leading-tight">
-                  Join Mathura&apos;s Fastest Growing English Coaching
+                  Join Prayagraj&apos;s Most Trusted Coaching Institute
                 </div>
                 <div className="hidden sm:block text-[11px] text-white/65 font-semibold mt-1">
-                  Smart classes • Expert faculty • Affordable fees
+                  AC smart classes • Expert faculty • Affordable fees
                 </div>
               </div>
             </div>
@@ -144,7 +144,7 @@ export default function LeadFormSection() {
                 </div>
                 <div className="flex items-center gap-1 text-[11px] font-bold px-2 py-0.5 rounded-full" style={{ backgroundColor: "#05966918", color: "#047857" }}>
                   <span className="w-1.5 h-1.5 rounded-full animate-pulse" style={{ backgroundColor: "#059669" }}></span>
-                  24×7 Available
+                  Available
                 </div>
               </div>
 
@@ -191,7 +191,7 @@ export default function LeadFormSection() {
                       required
                       className="w-full border border-[#EAE5DC] rounded-xl pl-9 pr-4 py-3 text-[14px] text-[#1F2937] focus:outline-none focus:border-[#0F2C59] focus:ring-2 focus:ring-[#0F2C59]/10 transition-all bg-white"
                     >
-                      <option value="">Select Class / Target Exam *</option>
+                      <option value="">Select Your Class *</option>
                       {classes.map((c) => (
                         <option key={c} value={c}>{c}</option>
                       ))}

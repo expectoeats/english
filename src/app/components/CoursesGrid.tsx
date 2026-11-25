@@ -8,48 +8,48 @@ const SECONDARY_HOVER = "#1E40AF";
 
 const courses = [
   {
-    id: "spoken-english",
-    name: "Spoken English",
-    tagline: "Fluency & Confidence",
-    eligibility: "Students & Working Professionals",
+    id: "science-math",
+    name: "Science & Mathematics",
+    tagline: "CBSE & ICSE",
+    eligibility: "Class 6th to Class 12th",
     icon: "https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&fit=crop&w=500&q=80",
-    mode: "Offline + Digital Board",
+    mode: "Offline + Smart Board",
     color: SECONDARY,
-    features: ["Daily Speaking Practice", "Vocabulary Building", "Confidence Coaching"],
+    features: ["Strong Concept Building", "Popular Mentors like Ankit Sir", "Regular Practice Tests"],
     badge: "Most Popular",
   },
   {
-    id: "grammar-writing",
-    name: "Grammar & Writing",
-    tagline: "Strong Foundation",
-    eligibility: "Class 6th to 12th & Adults",
+    id: "school-subjects",
+    name: "All School Subjects",
+    tagline: "Complete Support",
+    eligibility: "Class 6th to Class 12th",
     icon: "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=500&q=80",
-    mode: "Offline + Digital Board",
+    mode: "Offline + Smart Board",
     color: "#0F2C59",
-    features: ["Tenses & Parts of Speech", "Creative Writing", "Exam-oriented Grammar"],
+    features: ["CBSE & ICSE Curriculum", "Subject-wise Expert Faculty", "Homework & Test Support"],
     badge: "Essential",
   },
   {
-    id: "competitive-english",
-    name: "Competitive English",
-    tagline: "Bank / SSC / Govt Exams",
-    eligibility: "Graduates & Job Aspirants",
+    id: "competitive-foundation",
+    name: "Competitive Foundation",
+    tagline: "JEE / NEET Prep",
+    eligibility: "Class 8th to Class 12th",
     icon: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=500&q=80",
-    mode: "Offline + Digital Board",
+    mode: "Offline + Smart Board",
     color: "#059669",
-    features: ["Previous Year Papers", "Comprehension & Cloze", "Error Detection & Rectification"],
+    features: ["Foundation for JEE/NEET", "Advanced Problem Solving", "Previous Year Questions"],
     badge: "High Demand",
   },
   {
-    id: "personality-dev",
-    name: "Personality Development",
-    tagline: "Complete Makeover",
-    eligibility: "Students & Professionals",
+    id: "board-exam-prep",
+    name: "Board Exam Preparation",
+    tagline: "Complete Guidance",
+    eligibility: "Class 10th & 12th",
     icon: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=500&q=80",
-    mode: "Offline + Digital Board",
+    mode: "Offline + Smart Board",
     color: "#7C3AED",
-    features: ["Public Speaking", "Interview Prep", "Body Language & Etiquette"],
-    badge: "Transformative",
+    features: ["Board Pattern Questions", "Mock Tests & Analysis", "Revision Classes"],
+    badge: "Result Oriented",
   },
 ];
 
@@ -63,14 +63,14 @@ export default function CoursesGrid() {
           </div>
           <h2 className="font-heading text-[24px] sm:text-[30px] md:text-[38px] font-extrabold text-[#0F2C59] leading-tight">
             Programs Designed for{" "}
-            <span style={{ color: SECONDARY }}>Success</span>
+            <span style={{ color: SECONDARY }}>Academic Success</span>
           </h2>
           <p className="mt-2 text-[13px] sm:text-[15px] text-[#6B7280] max-w-xl mx-auto leading-relaxed hidden sm:block">
-            Expert-crafted batches with smart digital classrooms, weekly practice tests,
-            and dedicated doubt-removal sessions — right in Mathura.
+            Expert-crafted batches with air-conditioned smart classrooms, weekly practice tests,
+            and dedicated doubt-removal sessions — right in Prayagraj's Katra area.
           </p>
           <p className="mt-2 text-[13px] text-[#6B7280] max-w-xl mx-auto leading-relaxed sm:hidden">
-            Smart classrooms &amp; weekly tests — right in Mathura.
+            Smart AC classrooms &amp; weekly tests — right in Prayagraj Katra.
           </p>
         </div>
 
