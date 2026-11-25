@@ -6,10 +6,10 @@ const SECONDARY = "#1D4ED8";
 const SECONDARY_HOVER = "#1E40AF";
 
 const announcements = [
-  "New Batches Starting from 1st September 2026 — Enroll Now!",
-  "Spoken English, Grammar & Competitive English Batches — Admissions Open",
-  "Free Demo Class — Every Sunday 10 AM",
-  "Personality Development & Interview Prep — Limited Seats",
+  "New Batches Starting from 1st December 2026 — Enroll Now!",
+  "CBSE & ICSE Classes from 6th to 12th — Admissions Open",
+  "Free Demo Class — Contact for Timings",
+  "Air-Conditioned Smart Classrooms with Expert Faculty — Limited Seats",
 ];
 
 export default function AnnouncementBar() {
@@ -47,11 +47,11 @@ export default function AnnouncementBar() {
             <span className="hidden sm:inline text-white/50">|</span>
             <Phone className="w-3.5 h-3.5 flex-shrink-0 hidden sm:inline-block" />
             <a
-              href="tel:09761123527"
+              href="tel:09005642857"
               className="underline underline-offset-2 hover:text-white transition-colors hidden sm:inline"
               style={{ color: "#93C5FD" }}
             >
-              097611 23527
+              090056 42857
             </a>
           </span>
         </div>
@@ -59,7 +59,7 @@ export default function AnnouncementBar() {
         <div className="flex items-center gap-2 flex-shrink-0">
           <span className="hidden md:flex items-center gap-1 text-white/70 text-[12px]">
             <MapPin className="w-3 h-3" />
-            Janakpuri Colony, Mathura
+            Katra, Prayagraj
           </span>
           <a
             href="#contact"

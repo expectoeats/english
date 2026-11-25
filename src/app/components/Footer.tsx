@@ -23,7 +23,7 @@ const socialLinks = [
   {
     name: "WhatsApp",
     icon: "https://www.mentorsedu.com/wp-folder/img/Group-21.png",
-    href: "https://wa.me/919761123527",
+    href: "https://wa.me/919005642857",
     color: "#25D366",
   },
   {
@@ -59,11 +59,11 @@ const socialLinks = [
 ];
 
 const quickLinks = [
-  { label: "Spoken English Classes", href: "#courses" },
-  { label: "Grammar & Writing Skills", href: "#courses" },
-  { label: "Competitive English (Bank/SSC)", href: "#courses" },
-  { label: "Personality Development", href: "#courses" },
-  { label: "IELTS / TOEFL Preparation", href: "#courses" },
+  { label: "CBSE Classes (6th–12th)", href: "#courses" },
+  { label: "ICSE Classes (6th–12th)", href: "#courses" },
+  { label: "Science Coaching", href: "#courses" },
+  { label: "Mathematics Coaching", href: "#courses" },
+  { label: "School Exam Preparation", href: "#courses" },
   { label: "Student Reviews", href: "#reviews" },
   { label: "Faculty", href: "#director" },
 ];
@@ -72,14 +72,14 @@ const contactInfo = [
   {
     icon: <MapPin className="w-4 h-4 flex-shrink-0 mt-0.5" />,
     label: "Address",
-    value: "Advanced Institute, Janakpuri Colony, opposite Ambedkar Park, Aurangabad Township, Mathura, Uttar Pradesh 281006",
+    value: "Katra, Prayagraj, Uttar Pradesh (FVC3+V8)",
     href: undefined,
   },
   {
     icon: <Phone className="w-4 h-4 flex-shrink-0" />,
     label: "Phone",
-    value: "097611 23527",
-    href: "tel:09761123527",
+    value: "090056 42857",
+    href: "tel:09005642857",
   },
   {
     icon: <Clock className="w-4 h-4 flex-shrink-0" />,
@@ -90,7 +90,7 @@ const contactInfo = [
   {
     icon: <Hash className="w-4 h-4 flex-shrink-0" />,
     label: "Plus Code",
-    value: "CPR3+5W Mathura, Uttar Pradesh",
+    value: "FVC3+V8 Prayagraj, Uttar Pradesh",
     href: undefined,
   },
 ];
@@ -131,7 +131,7 @@ export default function Footer() {
                 <div className="w-14 h-14 flex-shrink-0 rounded-full overflow-hidden border-2 border-white/20 shadow-lg bg-white">
                   <Image
                     src="/logo.jpg"
-                    alt="English Master Institute Logo"
+                    alt="TSS Acharya Logo"
                     width={56}
                     height={56}
                     className="w-full h-full object-contain p-1"
@@ -139,22 +139,21 @@ export default function Footer() {
                 </div>
                 <div>
                   <div className="font-heading font-extrabold text-[17px] text-white leading-tight">
-                    ENGLISH MASTER INSTITUTE
+                    TSS ACHARYA
                   </div>
                   <div className="text-[11px] font-semibold tracking-wide" style={{ color: SECONDARY_HOVER }}>
-                    इंग्लिश मास्टर इंस्टीट्यूट
+                    टी एस एस आचार्य
                   </div>
                   <div className="text-[10px] text-white/40 font-medium mt-0.5">
-                    Spoken English | Grammar | Competitive English
+                    CBSE & ICSE | Class 6–12 | Science & Maths
                   </div>
                 </div>
               </div>
             <p className="text-[13px] text-white/60 leading-relaxed mb-5 hidden sm:block">
-              Premier English coaching institute in Mathura, Uttar Pradesh, specializing in Spoken English,
-              Grammar, Competitive English &amp; Personality Development. Trusted by 500+ students and their families.
+              Highly rated coaching institute in the Katra area of Prayagraj, Uttar Pradesh. Specializing in CBSE & ICSE academics for Class 6–12, with modern air-conditioned classrooms, smartboards, and expert faculty. Trusted by hundreds of students.
             </p>
             <p className="text-[13px] text-white/60 leading-relaxed mb-5 sm:hidden">
-              Spoken English, Grammar &amp; Competitive English coaching in Mathura. Trusted by 500+ students.
+              CBSE & ICSE coaching for Class 6–12 in Katra, Prayagraj. Modern facilities, expert faculty.
             </p>
 
               <div className="flex flex-wrap gap-2">
@@ -236,13 +235,13 @@ export default function Footer() {
                   <Target className="w-4 h-4" style={{ color: ACCENT_LIGHT }} />
                   Seats are filling fast. Enroll now for:
                 </div>
-                {["Spoken English", "Grammar & Writing", "Competitive English", "Personality Development"].map((prog) => (
+                {["CBSE Classes", "ICSE Classes", "Science Coaching", "Mathematics Coaching"].map((prog) => (
                   <div key={prog} className="flex items-center gap-2 text-[12px] text-white/80 font-semibold">
                     <Check className="w-3.5 h-3.5" style={{ color: ACCENT_LIGHT }} /> {prog}
                   </div>
                 ))}
                 <a
-                  href="tel:09761123527"
+                  href="tel:09005642857"
                   className="flex items-center justify-center gap-2 w-full text-center hover:bg-[#1E40AF] text-white font-bold text-[13px] py-2.5 rounded-xl transition-colors mt-2"
                   style={{ backgroundColor: SECONDARY }}
                 >
@@ -250,7 +249,7 @@ export default function Footer() {
                   Call to Enroll Now
                 </a>
                 <a
-                  href="https://wa.me/919761123527"
+                  href="https://wa.me/919005642857"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 w-full text-center bg-[#25D366]/15 hover:bg-[#25D366]/25 border border-[#25D366]/30 text-[#25D366] font-bold text-[13px] py-2.5 rounded-xl transition-colors"
@@ -266,12 +265,12 @@ export default function Footer() {
         <div className="border-t border-white/10">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row items-center justify-between gap-2">
             <p className="text-[12px] text-white/40 text-center sm:text-left">
-              © 2026 ENGLISH MASTER INSTITUTE. All Rights Reserved. Designed for Educational Excellence.
+              © 2026 TSS ACHARYA. All Rights Reserved. Designed for Educational Excellence.
             </p>
             <div className="flex items-center gap-4 text-[12px] text-white/40">
               <span className="flex items-center gap-1">
                 <Building2 className="w-3.5 h-3.5" />
-                Mathura, Uttar Pradesh 281006
+                Prayagraj, Uttar Pradesh
               </span>
               <span>|</span>
               <span className="flex items-center gap-1">

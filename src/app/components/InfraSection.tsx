@@ -120,11 +120,11 @@ export default function InfraSection() {
             Serious Aspirants
           </h2>
           <p className="text-[13px] sm:text-[15px] md:text-[16px] text-[#6B7280] max-w-2xl mx-auto leading-relaxed hidden sm:block">
-            Kota-level infrastructure, right here in Mathura. Smart classrooms, premium labs, and dedicated study zones —
-            everything your child needs to master English without leaving home.
+            Kota-level infrastructure, right here in Prayagraj. Air-conditioned smart classrooms, premium labs, and dedicated study zones —
+            everything your child needs to excel in CBSE & ICSE without leaving home.
           </p>
           <p className="text-[13px] text-[#6B7280] max-w-2xl mx-auto leading-relaxed sm:hidden">
-            Kota-level infrastructure in Mathura — smart classrooms, labs &amp; study zones.
+            Kota-level infrastructure in Prayagraj — AC smart classrooms, labs &amp; study zones.
           </p>
         </div>
 
@@ -132,7 +132,7 @@ export default function InfraSection() {
           <div className="relative h-56 sm:h-72 md:h-80">
             <Image
               src={BANNER_IMG}
-              alt="Modern ENGLISH MASTER INSTITUTE Classroom with Digital Board"
+              alt="Modern TSS Acharya Classroom with Digital Board"
               fill
               className="object-cover w-full"
               priority={false}
@@ -159,7 +159,7 @@ export default function InfraSection() {
                     Meets <span className="text-[#93C5FD]">Excellence.</span>
                   </h3>
                   <p className="text-[12px] sm:text-[14px] text-white/70 max-w-lg leading-relaxed hidden sm:block">
-                    10,000+ sq. ft. of state-of-the-art learning space designed specifically for focused English learning.
+                    10,000+ sq. ft. of state-of-the-art learning space designed specifically for focused CBSE & ICSE learning.
                   </p>
                 </div>
               </div>
@@ -243,7 +243,7 @@ export default function InfraSection() {
           <div className="relative p-8 sm:p-10 md:p-12 text-center">
             <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 text-white/85 text-[12px] font-bold px-4 py-1.5 rounded-full mb-5 tracking-wide">
               <MapPin className="w-3.5 h-3.5 text-[#93C5FD]" />
-              Ft. Road, Janakpuri Colony, Mathura, Uttar Pradesh
+              Katra, Prayagraj, Uttar Pradesh
             </div>
             <h3 className="font-heading text-[24px] sm:text-[30px] md:text-[36px] font-extrabold text-white leading-tight mb-3">
               See it for Yourself.
@@ -258,15 +258,15 @@ export default function InfraSection() {
             </p>
             <div className="flex flex-wrap gap-3 justify-center">
               <a
-                href="tel:09761123527"
+                href="tel:09005642857"
                 className="inline-flex items-center gap-2 hover:brightness-110 text-white font-bold text-[14px] sm:text-[15px] px-7 sm:px-8 py-3.5 rounded-full transition-all duration-200 shadow-[0_10px_30px_-10px_rgba(29,78,216,0.7)]"
                 style={{ backgroundColor: SECONDARY }}
               >
                 <Phone className="w-4.5 h-4.5" />
-                Call: 097611 23527
+                Call: 090056 42857
               </a>
               <a
-                href="https://maps.google.com/?q=Advanced+institute+janakpuri+colony+opposite+ambedkar+park+Aurangabad+township+Mathura+Uttar+Pradesh+281006"
+                href="https://maps.google.com/?q=Katra+Prayagraj+Uttar+Pradesh+FVC3+V8"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-white font-bold text-[14px] sm:text-[15px] px-7 sm:px-8 py-3.5 rounded-full border border-white/30 transition-all duration-200 hover:bg-white/10 backdrop-blur-sm"

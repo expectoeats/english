@@ -5,8 +5,8 @@ export default function HeroSection() {
     <section id="home" className="w-full">
       <div className="relative w-full overflow-hidden" style={{ height: "clamp(280px, 52vw, 680px)" }}>
         <Image
-          src="https://lmm-bucket-public.allen-live.in/1f16983c-86e4-4f43-aad2-497d78a687ef/original.png"
-          alt="English Master Institute — Best English Coaching in Mathura"
+          src="/hero-banner.jpg"
+          alt="TSS Acharya — Best Coaching Institute in Prayagraj for CBSE & ICSE"
           fill
           className="lg:object-contain object-cover lg:object-center object-right w-full"
           priority
