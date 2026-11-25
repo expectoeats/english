@@ -39,9 +39,8 @@ export default function AboutSection() {
       label: "Address",
       value: (
         <span className="text-[13px] text-[#6B7280] leading-relaxed">
-          Advanced Institute, Janakpuri Colony,<br />
-          opposite Ambedkar Park, Aurangabad Township,<br />
-          Mathura, Uttar Pradesh — 281006
+          Katra, Prayagraj,<br />
+          Uttar Pradesh (FVC3+V8)
         </span>
       ),
     },
@@ -49,8 +48,8 @@ export default function AboutSection() {
       icon: <Phone className="w-5 h-5 flex-shrink-0" style={{ color: SECONDARY }} />,
       label: "Phone",
       value: (
-        <a href="tel:09761123527" className="text-[13px] text-[#0F2C59] font-bold transition-colors" style={{ color: SECONDARY_HOVER }}>
-          097611 23527
+        <a href="tel:09005642857" className="text-[13px] text-[#0F2C59] font-bold transition-colors" style={{ color: SECONDARY_HOVER }}>
+          090056 42857
         </a>
       ),
     },
@@ -62,7 +61,7 @@ export default function AboutSection() {
     {
       icon: <Hash className="w-5 h-5 flex-shrink-0" style={{ color: SECONDARY }} />,
       label: "Plus Code",
-      value: <span className="text-[13px] text-[#6B7280] font-mono">CPR3+5W Mathura, Uttar Pradesh</span>,
+      value: <span className="text-[13px] text-[#6B7280] font-mono">FVC3+V8 Prayagraj, Uttar Pradesh</span>,
     },
   ];
 
@@ -73,7 +72,7 @@ export default function AboutSection() {
           <div className="relative h-44 sm:h-56 md:h-64">
             <Image
               src={BUILDING_IMG}
-              alt="ENGLISH MASTER INSTITUTE Coaching Institute Building Mathura"
+              alt="TSS Acharya Coaching Institute Building Prayagraj"
               fill
               className="object-cover w-full"
               sizes="100vw"
@@ -83,7 +82,7 @@ export default function AboutSection() {
               <div className="max-w-7xl mx-auto px-6 sm:px-10 w-full text-center sm:text-left">
                 <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 text-white/90 text-[11px] sm:text-[12px] font-bold px-3 py-1 rounded-full mb-2 sm:mb-3 tracking-wider uppercase">
                   <MapPin className="w-3.5 h-3.5" />
-                  Janakpuri Colony, Mathura
+                  Katra, Prayagraj
                 </div>
                 <h2 className="font-heading text-[20px] sm:text-[28px] md:text-[40px] font-extrabold text-white leading-tight max-w-2xl">
                   Visit Our <span className="text-[#93C5FD]">State-of-the-Art</span> Coaching Center
@@ -102,7 +101,7 @@ export default function AboutSection() {
             Come Meet Us <span style={{ color: SECONDARY }}>in Person</span>
           </h3>
           <p className="mt-2 text-[13px] sm:text-[15px] text-[#6B7280] max-w-xl mx-auto hidden sm:block">
-            Attend a free demo class, meet our faculty, and see why 500+ students trust ENGLISH MASTER INSTITUTE
+            Attend a free demo class, meet our faculty, and see why hundreds of students trust TSS ACHARYA
           </p>
           <p className="mt-2 text-[13px] text-[#6B7280] max-w-xl mx-auto sm:hidden">
             Attend a free demo &amp; meet our faculty.
@@ -114,7 +113,7 @@ export default function AboutSection() {
             <div className="relative overflow-hidden rounded-2xl h-52 sm:h-60 card-shadow border border-[#EAE5DC] mb-5 group">
               <Image
                 src={CAMPUS_IMG}
-                alt="ENGLISH MASTER INSTITUTE Reception & Campus Interior Mathura"
+                alt="TSS Acharya Reception & Campus Interior Prayagraj"
                 fill
                 className="object-cover w-full transition-transform duration-300 group-hover:scale-105"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -158,7 +157,7 @@ export default function AboutSection() {
 
               <div className="flex gap-3 mt-5">
                 <a
-                  href="https://maps.google.com/?q=Advanced+institute+janakpuri+colony+opposite+ambedkar+park+Aurangabad+township+Mathura+Uttar+Pradesh+281006"
+                  href="https://maps.google.com/?q=TSS+Acharya+Katra+Prayagraj+Uttar+Pradesh"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex-1 flex items-center justify-center gap-2 text-white text-[13px] font-bold py-2.5 rounded-xl transition-all duration-200"
@@ -170,7 +169,7 @@ export default function AboutSection() {
                   <span>Get Directions</span>
                 </a>
                 <a
-                  href="tel:09761123527"
+                  href="tel:09005642857"
                   className="flex-1 flex items-center justify-center gap-2 text-white text-[13px] font-bold py-2.5 rounded-xl transition-all duration-200"
                   style={{ backgroundColor: SECONDARY }}
                   onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = SECONDARY_HOVER)}
@@ -183,7 +182,7 @@ export default function AboutSection() {
             </div>
 
             <a
-              href="https://wa.me/919761123527?text=Hello!%20I%20want%20to%20know%20more%20about%20English%20Master%20Institute."
+              href="https://wa.me/919005642857?text=Hello!%20I%20want%20to%20know%20more%20about%20TSS%20Acharya."
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-4 transition-all duration-200 group rounded-2xl p-5 border"
@@ -208,7 +207,7 @@ export default function AboutSection() {
             <div className="relative overflow-hidden rounded-2xl h-40 sm:h-48 mb-5 card-shadow border border-[#EAE5DC] group">
               <Image
                 src={LOCATION_MAP_IMG}
-                alt="ENGLISH MASTER INSTITUTE Location Map Mathura Uttar Pradesh"
+                alt="TSS Acharya Location Map Prayagraj Uttar Pradesh"
                 fill
                 className="object-cover w-full transition-transform duration-300 group-hover:scale-105"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -217,14 +216,14 @@ export default function AboutSection() {
               <div className="absolute top-4 left-4 right-4 flex items-start justify-between">
                 <div className="bg-white/95 backdrop-blur-sm rounded-xl px-3 py-2 shadow-lg">
                   <div className="font-heading font-bold text-[11px] text-[#0F2C59] leading-tight">
-                    ENGLISH MASTER INSTITUTE
+                    TSS ACHARYA
                   </div>
                   <div className="text-[9px] text-[#6B7280] font-semibold">
-                    Janakpuri Colony, Mathura
+                    Katra, Prayagraj
                   </div>
                 </div>
                 <a
-                  href="https://maps.google.com/?q=Advanced+institute+janakpuri+colony+opposite+ambedkar+park+Aurangabad+township+Mathura+Uttar+Pradesh+281006"
+                  href="https://maps.google.com/?q=TSS+Acharya+Katra+Prayagraj+Uttar+Pradesh"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-[#1D4ED8] hover:bg-[#1E40AF] text-white font-bold text-[11px] px-3 py-2 rounded-xl shadow-lg transition-colors flex items-center gap-1"
